@@ -4,7 +4,7 @@ let btn2 = document.querySelector('#off-btn');
 let message = document.querySelector('.alert-message');
 
 btn1.addEventListener('click', function () {
-    bulb.style.color = '#FFFF00';
+    bulb.style.color = 'red';
     message.style.display = 'block';
     message.innerText = 'The bulb is now turned ON!';
 })
